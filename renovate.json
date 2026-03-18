@@ -6,6 +6,12 @@
   ],
   "packageRules": [
     {
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "patch & minor updates"
+      "automerge": true,
+      "automergeType": "pr"
+    },
+    {
       "matchDepTypes": ["devDependencies"],
       "groupName": "dev dependencies"
     },
@@ -17,10 +23,6 @@
       "matchPackageNames": ["axios"],
       "matchUpdateTypes": ["patch"],
       "enabled": true
-    },
-    {
-      "matchUpdateTypes": ["minor"],
-      "groupName": "minor updates"
     }
   ]
 }
