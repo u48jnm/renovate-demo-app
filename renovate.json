@@ -19,6 +19,7 @@
       "enabled": true
     },
     {
+      "matchDepTypes": ["dependencies"],
       "matchUpdateTypes": ["patch"],
       "groupName": "patch updates"
     }
