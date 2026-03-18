@@ -16,6 +16,10 @@
       "automergeType": "pr"
     },
     {
+      "matchUpdateTypes": ["major"],
+      "automerge": false
+    },
+    {
       "matchDepTypes": ["devDependencies"],
       "groupName": "dev dependencies"
     },
