@@ -17,6 +17,10 @@
       "matchPackageNames": ["axios"],
       "matchUpdateTypes": ["patch"],
       "enabled": true
+    },
+    {
+      "matchUpdateTypes": ["patch"],
+      "groupName": "patch updates"
     }
   ]
 }
