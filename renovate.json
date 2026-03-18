@@ -4,6 +4,10 @@
     "config:recommended", 
     "mergeConfidence:all-badges"
   ],
+  "schedule": ["before 6am on monday"],
+  "timezone": "Europe/Berlin",
+  "prConcurrentLimit": 3,
+  "minimumReleaseAge": "3 days",
   "packageRules": [
     {
       "matchUpdateTypes": ["patch", "minor"],
